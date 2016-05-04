@@ -1,0 +1,4 @@
+*.name
+/node_modules/*
+/.idea/*
+/.sass-cache/*
