@@ -1,0 +1,67 @@
+#menu{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 774px;
+  height: 210px;
+  background: url(../images/menu-bg.jpg) no-repeat;
+  position: relative;
+  span {
+    display: none;
+    position: absolute;
+  }
+  a {
+    display: block;
+    text-indent: -900%;
+    position: absolute;
+    outline: none;
+  }
+  a:hover {
+    background-position: left bottom;
+    span{
+      display: block;
+    }
+  }
+  .home {
+    width: 144px;
+    height: 58px;
+    background: url(../images/home.gif) no-repeat;
+    left: 96px;
+    top: 73px;
+    span {
+      width: 86px;
+      height: 14px;
+      background: url(../images/home-over.gif) no-repeat;
+      left: 28px;
+      top: -20px;
+    }
+  }
+  .about {
+    width: 131px;
+    height: 51px;
+    background: url(../images/about.gif) no-repeat;
+    left: 338px;
+    top: 97px;
+    span {
+      width: 40px;
+      height: 12px;
+      background: url(../images/about-over.gif) no-repeat;
+      left: 44px;
+      top: 54px;
+    }
+  }
+  .rss {
+    width: 112px;
+    height: 47px;
+    background: url(../images/rss.gif) no-repeat;
+    left: 588px;
+    top: 94px;
+    span {
+      width: 92px;
+      height: 20px;
+      background: url(../images/rss-over.gif) no-repeat;
+      left: 26px;
+      top: -20px;
+    }
+  }
+}
